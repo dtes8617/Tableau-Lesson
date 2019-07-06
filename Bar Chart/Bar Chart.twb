@@ -137,7 +137,7 @@
       <column datatype='string' name='[Rep]' role='dimension' type='nominal' />
       <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
       <column-instance column='[Rep]' derivation='None' name='[none:Rep:nk]' pivot='key' type='nominal' />
-      <layout dim-ordering='alphabetic' dim-percentage='0.515805' measure-ordering='alphabetic' measure-percentage='0.484195' show-structure='true' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.501437' measure-ordering='alphabetic' measure-percentage='0.498563' show-structure='true' />
       <style>
         <style-rule element='mark'>
           <encoding attr='color' field='[none:Rep:nk]' palette='color_blind_10_0' type='palette'>
@@ -201,6 +201,13 @@
   </datasources>
   <worksheets>
     <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontsize='20'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources>
@@ -308,7 +315,7 @@
           <strip size='2147483647'>
             <card type='rows' />
           </strip>
-          <strip size='31'>
+          <strip size='2147483647'>
             <card type='title' />
           </strip>
         </edge>
